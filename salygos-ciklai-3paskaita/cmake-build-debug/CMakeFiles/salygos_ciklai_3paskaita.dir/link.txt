@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\salygos_ciklai_3paskaita.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\salygos_ciklai_3paskaita.dir/objects.a @CMakeFiles\salygos_ciklai_3paskaita.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\salygos_ciklai_3paskaita.dir/objects.a -Wl,--no-whole-archive -o salygos_ciklai_3paskaita.exe -Wl,--out-implib,libsalygos_ciklai_3paskaita.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\salygos_ciklai_3paskaita.dir\linkLibs.rsp
