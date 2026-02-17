@@ -1,0 +1,3 @@
+C:/Users/j.zailskas/Desktop/Strukturinis2025/kintamieji/cmake-build-debug/CMakeFiles/kintamieji.dir
+C:/Users/j.zailskas/Desktop/Strukturinis2025/kintamieji/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/j.zailskas/Desktop/Strukturinis2025/kintamieji/cmake-build-debug/CMakeFiles/rebuild_cache.dir

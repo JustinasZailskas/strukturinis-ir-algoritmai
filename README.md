@@ -1,1 +1,0 @@
-# Sukurtas Readme failas
