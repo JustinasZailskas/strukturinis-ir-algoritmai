@@ -1,0 +1,3 @@
+C:/Users/j.zailskas/Desktop/strukturinis-ir-algoritmai/salygos-ciklai-3paskaita/cmake-build-debug/CMakeFiles/salygos_ciklai_3paskaita.dir
+C:/Users/j.zailskas/Desktop/strukturinis-ir-algoritmai/salygos-ciklai-3paskaita/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/j.zailskas/Desktop/strukturinis-ir-algoritmai/salygos-ciklai-3paskaita/cmake-build-debug/CMakeFiles/rebuild_cache.dir
