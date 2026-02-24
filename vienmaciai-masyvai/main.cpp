@@ -18,6 +18,15 @@ int main() {
     //     cout <<"Masyvo "<<i+1<<" elemento reiksme: "<<skaiciai[i]<<endl;
     // }
 
+    int naujasSkaiciuMasyvas[5] = {};
+
+    for(int i = 0; i < 5; i++) {
+        cout<<"Iveskite skaiciu: "<<endl;
+        cin>>naujasSkaiciuMasyvas[i];
+    }
+    for(int i = 0; i < 5; i++) {
+        cout <<"Masyvo "<<i+1<<" elemento reiksme: "<<naujasSkaiciuMasyvas[i]<<endl;
+    }
 
 
     return 0;
