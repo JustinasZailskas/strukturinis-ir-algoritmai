@@ -18,16 +18,35 @@ int main() {
     //     cout <<"Masyvo "<<i+1<<" elemento reiksme: "<<skaiciai[i]<<endl;
     // }
 
-    int naujasSkaiciuMasyvas[5] = {};
+    // int naujasSkaiciuMasyvas[5] = {};
+    //
+    // for(int i = 0; i < 5; i++) {
+    //     cout<<"Iveskite skaiciu: "<<endl;
+    //     cin>>naujasSkaiciuMasyvas[i];
+    // }
+    // for(int i = 0; i < 5; i++) {
+    //     cout <<"Masyvo "<<i+1<<" elemento reiksme: "<<naujasSkaiciuMasyvas[i]<<endl;
+    // }
 
-    for(int i = 0; i < 5; i++) {
-        cout<<"Iveskite skaiciu: "<<endl;
-        cin>>naujasSkaiciuMasyvas[i];
+    int masyvas[10];
+    int n, nuliuKiekis = 0;
+
+    cout<<"Iveskite masyvo elementu skaiciu"<<endl;
+    cin>>n;
+    cout<<"Iveskite masyvo elementu reiksmes"<<endl;
+    for(int i = 0; i < n; i++) {
+        cout<<i+1<<" - aji masyvo elementas"<<endl;
+        cin>>masyvas[i];
     }
-    for(int i = 0; i < 5; i++) {
-        cout <<"Masyvo "<<i+1<<" elemento reiksme: "<<naujasSkaiciuMasyvas[i]<<endl;
+    for(int i = 0; i < n; i++) {
+        cout<<masyvas[i]<<endl;
+    }
+    for(int i = 0; i < n; i++) {
+        if(masyvas[i] == 0) {
+            nuliuKiekis++;
+        }
     }
 
-
+    cout<<"Nuliu kiekis: "<<nuliuKiekis;
     return 0;
 }
