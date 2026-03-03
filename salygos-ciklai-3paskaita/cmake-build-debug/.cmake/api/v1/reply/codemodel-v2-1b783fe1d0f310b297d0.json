@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "salygos_ciklai_3paskaita::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-salygos_ciklai_3paskaita-Debug-33009710200679278feb.json",
+					"jsonFile" : "target-salygos_ciklai_3paskaita-Debug-2feb1dc09c70aa7c484b.json",
 					"name" : "salygos_ciklai_3paskaita",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 7
+		"minor" : 8
 	}
 }

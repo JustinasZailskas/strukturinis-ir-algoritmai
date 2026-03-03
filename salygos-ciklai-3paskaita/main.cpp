@@ -87,15 +87,38 @@ int main() {
     //     cout <<i<<endl;
     // }
 
-    int x = 10;
-    while (x < 5) {
-        cout<<"While ciklas"<<endl;
+    // int x = 10;
+    // while (x < 5) {
+    //     cout<<"While ciklas"<<endl;
+    // }
+    //
+    // do {
+    //     cout <<"Do-while ciklas"<<endl;
+    // } while(x < 5);
+    //
+    // for (int i = 1; i <= 10; i++) {
+    //     if (i % 2 == 0) {
+    //         cout<<i<<" - Skaicius dalijasi is 2"<<endl;
+    //         continue;
+    //     }
+    //     cout << i << endl;
+    // }
+
+    int number;
+    while (true) {
+        cout<<"Iveskite skaiciu (0-baigti): ";
+        cin>>number;
+
+        if (number == 0) {
+            break;
+        };
+
+        if (number < 0) {
+            continue;
+        }
+
+        cout <<"Priimtas skaicius: "<<number<<endl;
     }
-
-    do {
-        cout <<"Do-while ciklas"<<endl;
-    } while(x < 5);
-
 
     return 0;
 }
