@@ -5,6 +5,14 @@ void symbolPrint(char zenklas, int kiekis);
 void symbolPrintV2();
 int suma(int, int);
 bool arLyginis(int num);
+void kintamojoPerdavimasReiksme(int);
+// void kintamojoPerdavimasAdresu(int&);
+void kintamojoPerdavimasAdresu(int& skaicius) {
+    cout<<"Perdavimas reiksme PRIES: "<<skaicius<<endl;
+    skaicius = 5;
+    cout<<"Perdavimas reiksme PO: "<<skaicius<<endl;
+}
+
 int main() {
     // char zenklas;
     // int zenkluKiekis;
@@ -21,11 +29,26 @@ int main() {
     // cout<<"int                  4B        ~-2e9 - ~2e9"<<endl;
     // symbolPrint(zenklas, zenkluKiekis);
 
-    cout<<"Suma dvieju skaiciu "<<suma(8 , 9)<<endl;
-    string arLygTekst = arLyginis(10) ? "lyginis" : "nelyginis";
-    cout<<"Ivestas skaicius yra "<<arLygTekst;
+    // cout<<"Suma dvieju skaiciu "<<suma(8 , 9)<<endl;
+    // string arLygTekst = arLyginis(10) ? "lyginis" : "nelyginis";
+    // cout<<"Ivestas skaicius yra "<<arLygTekst;
+
+    int skaicius = 12;
+
+    cout <<"PRIES funkcijos kvietima reiksme yra lygi "<<skaicius<<endl;
+    // kintamojoPerdavimasReiksme(skaicius);
+    kintamojoPerdavimasAdresu(skaicius);
+    cout <<"PO funkcijos kvietima reiksme yra lygi "<<skaicius<<endl;
+
     return 0;
 }
+
+void kintamojoPerdavimasReiksme(int skaicius) {
+    cout<<"Perdavimas reiksme PRIES: "<<skaicius<<endl;
+    skaicius = 5;
+    cout<<"Perdavimas reiksme PO: "<<skaicius<<endl;
+}
+
 
 void symbolPrint(char zenklas, int kiekis) {
     for (int i = 0; i < kiekis; i++) {
