@@ -1,0 +1,3 @@
+C:/Users/j.zailskas/Desktop/strukturinis-ir-algoritmai/strukturu-pavyzdys/cmake-build-debug/CMakeFiles/strukturu_pavyzdys.dir
+C:/Users/j.zailskas/Desktop/strukturinis-ir-algoritmai/strukturu-pavyzdys/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/j.zailskas/Desktop/strukturinis-ir-algoritmai/strukturu-pavyzdys/cmake-build-debug/CMakeFiles/rebuild_cache.dir
