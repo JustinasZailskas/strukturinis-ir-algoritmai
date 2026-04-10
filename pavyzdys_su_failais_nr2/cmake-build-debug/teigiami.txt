@@ -1,0 +1,3 @@
+5 9 6 1 15 4 
+Is viso skaitmenu: 6
+Suma: 40
